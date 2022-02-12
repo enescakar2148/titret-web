@@ -1,0 +1,254 @@
+@import url("./colours.css");
+
+#video{
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+.section-1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.section-1-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 5% 5% 5% 5%;
+    position: absolute;
+}
+
+a{
+    color: var(--WHITE);
+    text-decoration: none;
+}
+
+nav{
+    /* display: inline; */
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    margin: 0 2%;
+}
+
+.nav-list{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+}
+
+#title{
+    color: #ECF0F1;
+    font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    font-family: karla, sans-serif;
+}
+
+#description{
+    font-size: 18px;
+    font-family: karla, sans-serif;
+    color: #ECF0F1;
+    text-shadow: 3px 3px 3px rgb(70, 70, 70);
+    padding: 2% 0 0 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#downloadBtn{
+    padding: .5rem .75rem .5rem .75rem;
+    margin: 5% 0;
+    font-size: 22px;
+    border: 1px solid transparent;
+    width: fit-content;
+    border-radius: 15px;
+    background: #587dfa;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+#downloadBtn:hover{
+    background: transparent;
+    border-color: #fff;
+}
+
+#logo{
+    width: 120px;
+    align-self: flex-end;
+    margin-right: 2%;
+    /* margin-top: 10%; */
+}
+
+#icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#icon-item{
+    margin: 0 25% 0 25%;
+}
+
+.icon-item{
+    font-size: 30px;
+}
+.icons-section-1{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 65%;
+}
+#comment{
+    height: 50px;
+    width: 50px;
+    align-self: flex-start;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#call{
+    height: 50px; 
+    width: 50px;
+    align-self: flex-end;
+    margin-right: 30%;
+}
+
+.section-2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 5% 5% 0 5%;
+}
+
+.section-2-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.section-2-left-top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-2-icon{
+    height: 55px;
+}
+#message_box{
+    width: 65px;
+    height: 65px;
+    margin: 10% 0;
+}
+
+p#section-2-des-2 {
+    background: rgb(154,58,217);
+    background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1#section-2-description {
+    background: rgb(154,58,217);
+    background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    font-size: 75px;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+h1#section-2-title {
+    background: rgb(154,58,217);
+    background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 30px;
+    text-align: center;
+    margin: 3%;
+    font-family: 'Karla', sans-serif;
+}
+
+.section-2-left-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#kopek{
+    height: 175px;
+}
+
+#sallananKafa{
+    height: 100px;
+}
+
+.section-2-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+#section-2-circle{
+    position: absolute;
+    height: 900px;
+}
+#section-2-esneyenAdam{
+    position: absolute;
+    height: 675px;
+    top: 35px;
+}
