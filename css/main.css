@@ -284,7 +284,7 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-start;
     text-align: center;
-    margin-top: 5%;    
+    margin-top: 50%;    
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
@@ -301,8 +301,9 @@ h1#section-2-title {
     font-size: 25px;
     font-weight: bold;
     align-self: flex-end;
+    padding: 0 0 0 25%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 35%;
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
@@ -333,7 +334,7 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-start;
     text-align: center;
-    margin-top: 5%;    
+    margin-top: 50%;    
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
@@ -351,7 +352,7 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-end;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 35%;
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
@@ -381,7 +382,7 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-start;
     text-align: center;
-    margin-top: 5%;    
+    margin-top: 50%;    
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
@@ -399,9 +400,87 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-end;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 35%;
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+}
+
+.section-6-swapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.section-6-right{
+    width: 50%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lastpage-circle-gif{
+    position: absolute;
+    justify-self: flex-start;
+    height: 225px;
+    margin-right: 10rem;
+}
+
+#mockup-lastpage{
+    position: absolute;
+}
+
+.section-6-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+#logo-lastpage{
+    width: 150px;
+}
+
+.lastpage-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#lastpage-title{
+    background: rgb(154,58,217);
+    background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 36px;
+    font-family: karla;
+    font-weight: bold;
+}
+
+#lastpage-des{
+    font-size: 18px;
+    font-family: karla;
+    font-weight: bold;
+    color: #313131dc;
+    margin-top: 5%;
+}
+
+.last-page-icon{
+    background: rgb(154,58,217);
+    background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+#icon-item{
+    transition: .2s;
+}
+#icon-item:hover{
+    transform: scale(1.5, 1.5);
 }
