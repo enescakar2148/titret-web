@@ -11,7 +11,7 @@
     object-fit: cover;
 }
 
-.video{
+.video-home{
     width: 100%;
     height: 100%;
 }
@@ -72,7 +72,6 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 50%;
 }
 
 #title{
@@ -273,10 +272,15 @@ h1#section-2-title {
 
 .part-1{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100%;
 }
 
-
+#swipe-icon{
+    width: 175px;
+    margin-top: 25%;
+}
 #section-3-part-1-title{
     color: var(--WHITE);
     font-family: karla;
@@ -284,7 +288,7 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-start;
     text-align: center;
-    margin-top: 50%;    
+    margin-top: 10%;    
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
@@ -293,7 +297,15 @@ h1#section-2-title {
 
 .part-3{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100%;
+    justify-content: flex-end;
+}
+
+#match-icon-1{
+    width: 175px;
+
 }
 #section-3-part-3-title{
     color: var(--WHITE);
@@ -301,9 +313,9 @@ h1#section-2-title {
     font-size: 25px;
     font-weight: bold;
     align-self: flex-end;
-    padding: 0 0 0 25%;
     text-align: center;
     margin-bottom: 35%;
+    margin-top: 10%;
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
@@ -321,11 +333,6 @@ h1#section-2-title {
     align-items: center;
 }
 
-.part-1{
-    display: flex;
-    height: 100%;
-}
-
 
 #section-4-part-1-title{
     color: var(--WHITE);
@@ -334,16 +341,11 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-start;
     text-align: center;
-    margin-top: 50%;    
+    margin-top: 10%;    
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-}
-
-.part-3{
-    display: flex;
-    height: 100%;
 }
 #section-4-part-3-title{
     color: var(--WHITE);
@@ -369,12 +371,6 @@ h1#section-2-title {
     align-items: center;
 }
 
-.part-1{
-    display: flex;
-    height: 100%;
-}
-
-
 #section-5-part-1-title{
     color: var(--WHITE);
     font-family: karla;
@@ -382,16 +378,11 @@ h1#section-2-title {
     font-weight: bold;
     align-self: flex-start;
     text-align: center;
-    margin-top: 50%;    
+    margin-top: 10%;    
     background: rgb(154,58,217);
     background: linear-gradient(90deg, rgba(154,58,217,1) 0%, rgba(10,43,150,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-}
-
-.part-3{
-    display: flex;
-    height: 100%;
 }
 #section-5-part-3-title{
     color: var(--WHITE);
@@ -435,7 +426,11 @@ h1#section-2-title {
 #mockup-lastpage{
     position: absolute;
 }
-
+#mockup-lastpage-video{
+    position: absolute;
+    height: 600px;
+    z-index: -1;
+}
 .section-6-left{
     width: 50%;
     display: flex;
@@ -483,4 +478,203 @@ h1#section-2-title {
 }
 #icon-item:hover{
     transform: scale(1.5, 1.5);
+}
+.part-2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    height: 550px;
+    border-radius: 25px;
+    box-shadow: -5px 5px 25px #000;
+    object-fit: cover;
+    margin: 0 2rem 0 2rem;
+    width: fit-content;
+}
+
+/* Responsive */
+
+/* Large */
+@media (min-width: 1201px) {
+    
+}
+
+/* Desktop */
+@media (max-width: 1200px) {
+    
+}
+
+/* Laptop */
+@media (max-width: 1050px) {
+    #section-2-circle{
+        height: 750px;
+    }
+   #section-2-esneyenAdam{
+       height: 550px;
+       margin-top: 0;
+   }
+
+   #section-2-description{
+       font-size: 64px !important;
+   }
+
+   #section-2-des-2{
+       font-size: 14px !important;
+   }
+}
+
+@media (max-width: 932px) {
+    .nav-list{
+        justify-content: space-around;
+    }
+    
+    .nav-item{
+        margin: 0;
+    }
+
+    #swipe-icon{
+        width: 100px;
+    }
+
+    #section-3-part-1-title{
+        font-size: 18px;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+   
+    #match-icon-1{
+        width: 100px;
+    }
+   #section-3-part-3-title{
+    font-size: 18px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+       
+    }
+#section-4-part-1-title{
+    font-size: 18px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+    
+   #section-4-part-3-title{
+    font-size: 18px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+       
+    }
+
+    
+   #section-5-part-3-title{
+    font-size: 18px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+       
+    }
+    #section-5-part-1-title{
+        font-size: 18px;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 900px) {
+    #title{
+        font-size: 100px;
+    }
+
+    .section-2-right{
+        display: none;
+    }
+
+    .section-2-left{
+        width: 100%;
+    }
+   #section-2-description{
+       font-size: 75px !important;
+    }
+
+    #section-2-des-2{
+        font-size: 18px !important;
+    }
+}
+
+
+/* Tablets */
+@media (max-width: 780px) {
+    #title{
+        font-size: 80px;
+    }
+    #playstore{
+        width: 120px;
+    }
+    #appstore{
+        width: 120px;
+    }
+    .icon-item{
+        font-size: 26px;
+    }
+
+    #section-2-description{
+        font-size: 55px !important;
+    }
+    
+    #section-2-des-2{
+        font-size: 14px !important;
+    }
+
+    .section-3-swapper{
+        flex-direction: column;
+    }
+
+    .section-4-swapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-5-swapper{
+        flex-direction: column;
+    }
+    .video{
+        height: 450px;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .part-3{
+        display: none;
+    }
+
+    .part-1{
+        height: fit-content;
+    }
+
+    .section-6-swapper{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .section-6-left{
+        width: 100%;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    .nav-list{
+        display: none;
+    }
+    #playstore{
+        width: 100px;
+    }
+    #appstore{
+        width: 100px;
+    }
+    #title{
+        font-size: 50px;
+    }
+
+    .icon-item{
+        font-size: 24px;
+    }
 }
