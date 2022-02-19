@@ -551,32 +551,29 @@ h1#section-2-title {
          display: flex;
          align-items: center;
          justify-content: center;
-         position: relative;
+         flex-direction: column;
          width: 100%;
          height: 100vh;
      }
 
      .section-3-left{
          display: flex;
-         position: absolute;
-         opacity: .2;
          width: 100%;
-         margin-bottom: 2rem;
      }
 
      .section-3-right{
-         position: absolute;
          width: 100%;
          padding: 0 10% 0 10%;
          display: flex;
          text-align: center;
+         align-items: center;
      }
 
      #section-3-renkli-daire{
-        height: 400px;
+        height: 375px;
     }
     #women{
-        height: 450px;
+        height: 300px;
     }
 
     #parmak {
@@ -590,8 +587,12 @@ h1#section-2-title {
         left: 5%;
         top: 25%;
     }
-
-
+    #section-3-title{
+        font-size: 34px;
+    }
+    #section-3-des{
+        font-size: 15px;
+    }
     .section-6-swapper{
         flex-direction: column;
         margin-top: 3rem;
@@ -632,10 +633,10 @@ h1#section-2-title {
     }
 
     #section-3-renkli-daire{
-        height: 300px;
+        height: 250px;
     }
     #women{
-        height: 375px;
+        height: 300px;
     }
 
     #parmak {
@@ -648,5 +649,8 @@ h1#section-2-title {
         width: 75px;
         left: 5%;
         top: 25%;
+    }
+    #lastpage-title{
+        text-align: center;
     }
 }
