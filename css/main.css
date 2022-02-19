@@ -595,7 +595,7 @@ h1#section-2-title {
     }
     .section-6-swapper{
         flex-direction: column;
-        margin-top: 7rem;
+        margin-top: 3rem;
     }
 
     .section-6-left{
@@ -652,5 +652,11 @@ h1#section-2-title {
     }
     #lastpage-title{
         text-align: center;
+    }
+    #section-3-left{
+        padding: 0;
+    }
+    .section-6-swapper{
+        margin-top: 7rem;
     }
 }
